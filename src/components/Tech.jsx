@@ -2,6 +2,7 @@
 import { BallCanvas } from './canvas';
 import SectionWrapper from '../hoc';
 import { technologies } from '../constants';
+import {Canvas} from '@react/three-fiber'
 
 const Tech = () => {
   return (
@@ -9,7 +10,9 @@ const Tech = () => {
       {technologies.map((technology) => {
         return (
           <div className="w-28 h-28" key={technology.name}>
+            <Canvas dpr={[1, 2]} gl={{ preserveDrawingBuffer: true }}>
             <BallCanvas icon={technology.icon} />
+              </Canvas>
           </div>
         );
       })}
