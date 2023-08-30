@@ -7,7 +7,7 @@ import { Canvas } from '@react-three/fiber';
 const Tech = () => {
   return (
     <div className="flex flex-row flex-wrap justify-center gap-10">
-      <Canvas dpr={[1, 2]} gl={{ preserveDrawingBuffer: true }}>
+      
       {technologies.map((technology) => {
         return (
           <div className="w-28 h-28" key={technology.name}>
@@ -15,7 +15,6 @@ const Tech = () => {
           </div>
         );
       })}
-      </Canvas>
     </div>
   );
 };
