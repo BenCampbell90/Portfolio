@@ -2,7 +2,7 @@
 import { BallCanvas } from './canvas';
 import SectionWrapper from '../hoc';
 import { technologies } from '../constants';
-import {Canvas} from '@react/three-fiber'
+import { Canvas } from '@react-three/fiber';
 
 const Tech = () => {
   return (
