@@ -5,6 +5,11 @@ import { technologies } from '../constants';
 import { Canvas } from '@react-three/fiber';
 
 const Tech = () => {
+  // Create a single WebGL context using useMemo
+  const sharedGL = useMemo(() => {
+    return new THREE.WebGLRenderer();
+  }, []);
+  
   return (
     <div className="flex flex-row flex-wrap justify-center gap-10">
       
