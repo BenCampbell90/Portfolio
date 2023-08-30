@@ -48,7 +48,7 @@ const BallCanvas = ({ icon }) => {
       </Suspense>
 
       <Preload all />
-    </>
+    </Canvas>
   );
 };
 
