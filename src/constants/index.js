@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  vba,
 } from '../assets';
 
 export const navLinks = [
@@ -45,16 +46,16 @@ const services = [
     title: 'Web Developer',
     icon: web,
   },
-  {
-    title: 'React Native Developer',
-    icon: mobile,
-  },
+  // {
+  //   title: 'React Native Developer',
+  //   icon: mobile,
+  // },
   {
     title: 'Backend Developer',
     icon: backend,
   },
   {
-    title: 'Content Creator',
+    title: 'Excel Programmer',
     icon: creator,
   },
 ];
@@ -72,10 +73,10 @@ const technologies = [
     name: 'JavaScript',
     icon: javascript,
   },
-  {
-    name: 'TypeScript',
-    icon: typescript,
-  },
+  // {
+  //   name: 'TypeScript',
+  //   icon: typescript,
+  // },
   {
     name: 'React JS',
     icon: reactjs,
@@ -109,8 +110,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: 'docker',
-    icon: docker,
+    name: 'vba',
+    icon: vba,
   },
 ];
 
