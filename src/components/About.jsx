@@ -41,7 +41,17 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w 3xl leading-[30px]"
       >
-        Write something about yourself
+        Hello! I'm an enthusiastic aspiring web developer with a solid
+        foundation in various key technologies. I'm well-versed in crafting user
+        interfaces using React to make websites dynamic and engaging. I've also
+        ventured into the world of 3D graphics with Three.js, where I'm excited
+        to bring more depth and interactivity to my projects. I'm comfortable
+        working with both the frontend and backend, using Node.js to handle
+        server-side operations and MongoDB to store and manage data effectively.
+        With a strong grasp of JavaScript, HTML, and CSS, I'm dedicated to
+        creating visually appealing and functional websites. My journey is all
+        about combining creativity with coding to build seamless web experiences
+        that leave a lasting impression.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10 ">
         {services.map((service, index) => {
