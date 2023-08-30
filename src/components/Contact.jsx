@@ -6,9 +6,7 @@ import { styles } from '../styles';
 import { EarthCanvas } from './canvas';
 import SectionWrapper from '../hoc';
 import { slideIn } from '../utils/motion';
-//template_42e3tju
-//service_wd0qtnr
-//6k4Oezn4GXmcA8Dyx
+
 const Contact = () => {
   const formRef = useRef();
   const [isLoading, setIsLoading] = useState(false);

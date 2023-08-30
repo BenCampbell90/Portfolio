@@ -19,9 +19,9 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  metaversus,
+  tshirt,
+  dalle,
   threejs,
   vba,
 } from '../assets';
@@ -46,10 +46,10 @@ const services = [
     title: 'Web Developer',
     icon: web,
   },
-  // {
-  //   title: 'React Native Developer',
-  //   icon: mobile,
-  // },
+  {
+    title: '3D Models',
+    icon: mobile,
+  },
   {
     title: 'Backend Developer',
     icon: backend,
@@ -199,7 +199,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Metaversus',
     description:
       'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
     tags: [
@@ -208,7 +208,7 @@ const projects = [
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'framer-motion',
         color: 'green-text-gradient',
       },
       {
@@ -216,11 +216,12 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: metaversus,
+    source_code_link: 'https://github.com/BenCampbell90/nextjs-metaverse',
+    live_site_link: 'https://serene-churros-49d1d2.netlify.app',
   },
   {
-    name: 'Job IT',
+    name: 'T-Shirt',
     description:
       'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
     tags: [
@@ -229,37 +230,47 @@ const projects = [
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'threejs',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'tailwind',
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
+    image: tshirt,
+    source_code_link: 'https://github.com/BenCampbell90/T-Shirt',
+    live_site_link: 'https://tranquil-florentine-dd2fa1.netlify.app',
   },
   {
-    name: 'Trip Guide',
+    name: 'Dalle Mock',
     description:
       'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'mernStack',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'react',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'mongoDB',
         color: 'pink-text-gradient',
       },
+      {
+        name: 'expressjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'nodejs',
+        color: 'green-text-gradient',
+      },
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: dalle,
+    source_code_link: 'https://github.com/BenCampbell90/dall.e-MERN',
+    live_site_link: 'https://flourishing-bavarois-b311ce.netlify.app',
   },
 ];
 

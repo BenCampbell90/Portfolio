@@ -4,6 +4,7 @@ import creator from './creator.png';
 import mobile from './mobile.png';
 import web from './web.png';
 import github from './github.png';
+import internet from './internet.png';
 import menu from './menu.svg';
 import close from './close.svg';
 
@@ -27,9 +28,9 @@ import shopify from './company/shopify.png';
 import starbucks from './company/starbucks.png';
 import tesla from './company/tesla.png';
 
-import carrent from './carrent.png';
-import jobit from './jobit.png';
-import tripguide from './tripguide.png';
+import metaversus from './metaversus.png';
+import tshirt from './threejs_tshirt.png';
+import dalle from './dalle-mern.png';
 
 export {
   logo,
@@ -38,6 +39,7 @@ export {
   mobile,
   web,
   github,
+  internet,
   menu,
   close,
   css,
@@ -57,8 +59,8 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  metaversus,
+  tshirt,
+  dalle,
   vba,
 };
