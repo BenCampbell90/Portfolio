@@ -1,8 +1,9 @@
 /* eslint-disable react-refresh/only-export-components */
-import { useMemo } from 'react'
+import { useMemo } from 'react';
 import { BallCanvas } from './canvas';
 import SectionWrapper from '../hoc';
 import { technologies } from '../constants';
+import * as THREE from 'three';
 import { Canvas } from '@react-three/fiber';
 
 const Tech = () => {
