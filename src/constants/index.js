@@ -62,28 +62,28 @@ const services = [
 
 const technologies = [
   //{
-    //name: 'HTML 5',
-    //icon: html,
+  //name: 'HTML 5',
+  //icon: html,
   //},
   //{
-    //name: 'CSS 3',
-    //icon: css,
+  //name: 'CSS 3',
+  //icon: css,
   //},
   {
     name: 'JavaScript',
     icon: javascript,
   },
-   //{
-    //name: 'TypeScript',
-    //icon: typescript,
-   //},
+  //{
+  //name: 'TypeScript',
+  //icon: typescript,
+  //},
   {
     name: 'React JS',
     icon: reactjs,
   },
   //{
-    //name: 'Redux Toolkit',
-    //icon: redux,
+  //name: 'Redux Toolkit',
+  //icon: redux,
   //},
   {
     name: 'Tailwind CSS',
@@ -97,22 +97,22 @@ const technologies = [
     name: 'MongoDB',
     icon: mongodb,
   },
- // {
- //   name: 'Three JS',
- //   icon: threejs,
-//  },
-//  {
+  // {
+  //   name: 'Three JS',
+  //   icon: threejs,
+  //  },
+  //  {
   //  name: 'git',
   //  icon: git,
- // },
-//  {
+  // },
+  //  {
   //  name: 'figma',
- //   icon: figma,
-//  },
-//  {
+  //   icon: figma,
+  //  },
+  //  {
   //  name: 'vba',
-   // icon: vba,
-//  },
+  // icon: vba,
+  //  },
 ];
 
 const experiences = [
@@ -237,7 +237,7 @@ const projects = [
         name: 'tailwind',
         color: 'pink-text-gradient',
       },
-       {
+      {
         name: 'express',
         color: 'green-text-gradient',
       },
@@ -253,8 +253,7 @@ const projects = [
   {
     name: 'Dalle Mock',
     description:
-      'Demo web application that allows users to create images using AI prompts, and post them for the community to see.
-      This project showcases the use of frontend, servers and databases to create and store data that can be rendered by the user.',
+      'Demo web application that allows users to create images using AI prompts, and post them for the community to see. This project showcases the use of frontend, servers and databases to create and store data that can be rendered by the user.',
     tags: [
       {
         name: 'mernStack',
