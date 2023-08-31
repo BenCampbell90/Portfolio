@@ -201,10 +201,10 @@ const projects = [
   {
     name: 'Metaversus',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'Demo website that showcases a landing page with custom animations.',
     tags: [
       {
-        name: 'react',
+        name: 'Next.js',
         color: 'blue-text-gradient',
       },
       {
@@ -223,7 +223,7 @@ const projects = [
   {
     name: 'T-Shirt',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'Demo web application that allows users to customise a 3D T-Shirt. This project showcases the use of 3D models and their interactivity',
     tags: [
       {
         name: 'react',
@@ -236,6 +236,14 @@ const projects = [
       {
         name: 'tailwind',
         color: 'pink-text-gradient',
+      },
+       {
+        name: 'express',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'nodejs',
+        color: 'blue-text-gradient',
       },
     ],
     image: tshirt,
