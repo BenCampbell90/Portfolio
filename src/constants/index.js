@@ -253,7 +253,8 @@ const projects = [
   {
     name: 'Dalle Mock',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'Demo web application that allows users to create images using AI prompts, and post them for the community to see.
+      This project showcases the use of frontend, servers and databases to create and store data that can be rendered by the user.',
     tags: [
       {
         name: 'mernStack',
