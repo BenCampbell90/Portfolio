@@ -18,7 +18,7 @@ const Tech = () => {
       {technologies.map((technology) => {
         return (
           <div className="w-28 h-28" key={technology.name}>
-            <BallCanvas icon={technology.icon} />
+            <BallCanvas icon={technology.icon} renderer={sharedGL} />
           </div>
         );
       })}
