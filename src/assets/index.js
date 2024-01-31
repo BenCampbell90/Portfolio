@@ -31,6 +31,7 @@ import tesla from './company/tesla.png';
 import metaversus from './metaversus.png';
 import tshirt from './threejs_tshirt.png';
 import dalle from './dalle-mern.png';
+import grocery from './Grocery.png';
 
 export {
   logo,
@@ -62,5 +63,6 @@ export {
   metaversus,
   tshirt,
   dalle,
+  grocery,
   vba,
 };

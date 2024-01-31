@@ -22,6 +22,7 @@ import {
   metaversus,
   tshirt,
   dalle,
+  grocery,
   threejs,
   vba,
 } from '../assets';
@@ -34,6 +35,10 @@ export const navLinks = [
   {
     id: 'work',
     title: 'Work',
+  },
+  {
+    id: 'projects',
+    title: 'Projects',
   },
   {
     id: 'contact',
@@ -172,24 +177,21 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
+    testimonial: 'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
     name: 'Sara Lee',
     designation: 'CFO',
     company: 'Acme Co',
     image: 'https://randomuser.me/api/portraits/women/4.jpg',
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    testimonial: "I've never met a web developer who truly cares about their clients' success like Rick does.",
     name: 'Chris Brown',
     designation: 'COO',
     company: 'DEF Corp',
     image: 'https://randomuser.me/api/portraits/men/5.jpg',
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    testimonial: "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: 'Lisa Wang',
     designation: 'CTO',
     company: '456 Enterprises',
@@ -200,8 +202,7 @@ const testimonials = [
 const projects = [
   {
     name: 'Metaversus',
-    description:
-      'Demo website that showcases a landing page with custom animations.',
+    description: 'Demo website that showcases a landing page with custom animations.',
     tags: [
       {
         name: 'Next.js',
@@ -279,6 +280,23 @@ const projects = [
     image: dalle,
     source_code_link: 'https://github.com/BenCampbell90/dall.e-MERN',
     live_site_link: 'https://flourishing-bavarois-b311ce.netlify.app',
+  },
+  {
+    name: 'Grocery Bud',
+    description: 'A grocery list app',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'toastify',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: grocery,
+    source_code_link: 'https://github.com/BenCampbell90/grocery-bud-localStorage/tree/main',
+    live_site_link: 'https://melodic-dusk-4702b9.netlify.app',
   },
 ];
 
