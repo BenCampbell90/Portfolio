@@ -25,6 +25,7 @@ import {
   grocery,
   threejs,
   vba,
+  mpd,
 } from '../assets';
 
 export const navLinks = [
@@ -123,15 +124,15 @@ const technologies = [
 const experiences = [
   {
     title: 'Full Stack Developer',
-    company_name: 'MPD',
+    company_name: 'MPD - Guilherme',
     icon: '',
     iconBg: '#383E56',
     date: 'Jan 2022 - Current',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+      'Donating my time to build out full features for MPD application that is currently in developement.',
+      'Technologies used are React, Node and MongoDB.',
+      'Collaborating with Guilherme to create a high-quality product using git, github and Jira',
       'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
     ],
   },
 ];
@@ -161,6 +162,35 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: 'MPD',
+    description: 'Pet information Hub (Still in Developement)',
+    tags: [
+      {
+        name: 'mernStack',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'react',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'mongoDB',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'expressjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'nodejs',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: mpd,
+    // source_code_link: 'https://github.com/BenCampbell90/dall.e-MERN',
+    // live_site_link: 'https://flourishing-bavarois-b311ce.netlify.app',
+  },
   {
     name: 'Metaversus',
     description: 'Demo website that showcases a landing page with custom animations.',

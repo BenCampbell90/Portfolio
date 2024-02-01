@@ -28,6 +28,7 @@ import shopify from './company/shopify.png';
 import starbucks from './company/starbucks.png';
 import tesla from './company/tesla.png';
 
+import mpd from './MPD.png';
 import metaversus from './metaversus.png';
 import tshirt from './threejs_tshirt.png';
 import dalle from './dalle-mern.png';
@@ -64,5 +65,6 @@ export {
   tshirt,
   dalle,
   grocery,
+  mpd,
   vba,
 };
