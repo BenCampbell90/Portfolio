@@ -210,7 +210,7 @@ const projects = [
     ],
     image: metaversus,
     source_code_link: 'https://github.com/BenCampbell90/nextjs-metaverse',
-    live_site_link: 'https://serene-churros-49d1d2.netlify.app',
+    live_site_link: 'https://nextjs-metaverse-lilac.vercel.app/',
   },
   {
     name: 'T-Shirt',
@@ -240,7 +240,7 @@ const projects = [
     ],
     image: tshirt,
     source_code_link: 'https://github.com/BenCampbell90/T-Shirt',
-    live_site_link: 'https://tranquil-florentine-dd2fa1.netlify.app',
+    live_site_link: 'https://t-shirt-kappa.vercel.app/',
   },
   {
     name: 'Dalle Mock',
@@ -270,7 +270,7 @@ const projects = [
     ],
     image: dalle,
     source_code_link: 'https://github.com/BenCampbell90/dall.e-MERN',
-    live_site_link: 'https://flourishing-bavarois-b311ce.netlify.app',
+    live_site_link: 'https://dall-e-frontend-rho.vercel.app/',
   },
   {
     name: 'Grocery Bud',
@@ -287,7 +287,7 @@ const projects = [
     ],
     image: grocery,
     source_code_link: 'https://github.com/BenCampbell90/grocery-bud-localStorage/tree/main',
-    live_site_link: 'https://melodic-dusk-4702b9.netlify.app',
+    live_site_link: 'https://grocery-bud-wine.vercel.app/',
   },
 ];
 
