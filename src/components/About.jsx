@@ -32,15 +32,11 @@ const About = () => {
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
-      <motion.p variants={fadeIn('', '', 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w 3xl leading-[30px]">
-        Hello! I'm a passionate web developer with a robust foundation in key technologies, driven by a diverse range of projects that showcase my
-        skills. Proficient in crafting captivating user interfaces with React, I thrive on making websites dynamic and engaging. While my experience
-        primarily stems from personal projects, I've successfully navigated both frontend and backend development. Leveraging Node.js, I manage
-        server-side operations, and MongoDB serves as a reliable repository for efficient data storage and management. My proficiency in JavaScript,
-        HTML, and CSS forms the backbone of my dedication to creating visually appealing and functional websites. Although I may lack industry
-        experience, I am excited about the prospect of contributing my skills to a dynamic team within a professional setting. My journey in web
-        development revolves around blending creativity with coding to construct seamless web experiences that leave a lasting impression. I am eager
-        to bring my project experience and enthusiasm to a role where I can continue learning and making meaningful contributions.
+      <motion.p variants={fadeIn('', '', 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
+        Hello! I'm a passionate web developer with a strong foundation in React for crafting captivating user interfaces. I'm skilled in both frontend
+        and backend development, utilizing technologies like Node.js and MongoDB. Most of my experience over the last 2 years stems from volunteering
+        most of my nights to a startup with Guilherme, in addition to personal projects. I'm eager to bring my creativity and coding experience to a
+        professional setting. I'm committed to continuous learning and making meaningful contributions to a dynamic team.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => {
